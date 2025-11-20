@@ -173,17 +173,10 @@ const receptes = ref([
 <template>
     <div class="llistat">
         <h1>Receptes</h1>
-        <div v-for="recepta in receptes" :key="recepta.id" class="recepta">
+        <div v-for="recepta in receptes" :key="recepta.id" class="recepta-llista">
             <h2>{{ recepta.titol }}</h2>
             <img :src="recepta.img" :alt="recepta.titol" class="recepta-img"/>
-            <h3>Ingredients:</h3>
-            <ul>
-                <li v-for="ingredient in recepta.ingredients" :key="ingredient">{{ ingredient }}</li>
-            </ul>
-            <h3>Passos:</h3>
-            <ol>
-                <li v-for="pas in recepta.passos" :key="pas">{{ pas }}</li>
-            </ol>
+            <a>Detall</a>
         </div>
     </div>
 </template>
