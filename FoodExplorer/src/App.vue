@@ -3,8 +3,8 @@ import { ref, provide } from "vue";
 const receptes = ref([
   {
     id: 1,
-    titol: "Butter Chicken (Pollastre a la Mantega)",
-    img: "https://example.com/images/butter_chicken.jpg",
+    titol: "Butter Chicken",
+    img: "../public/images/butterChicken.webp",
     ingredients: [
       "1 kg de pollastre, tallat a trossos",
       "200 g de mantega",
@@ -32,7 +32,7 @@ const receptes = ref([
   {
     id: 2,
     titol: "Pastís de Carn",
-    img: "https://example.com/images/pastis_de_carn.jpg",
+    img: "../public/images/pastelCarne.webp",
     ingredients: [
       "500 g de carn picada de vedella",
       "1 ceba picada",
@@ -57,7 +57,7 @@ const receptes = ref([
   {
     id: 3,
     titol: "Spaghetti Carbonara",
-    img: "https://example.com/images/spaghetti_carbonara.jpg",
+    img: "../public/images/spaguetti.jpg",
     ingredients: [
       "200 g d'espaguetis",
       "100 g de panceta",
@@ -79,7 +79,7 @@ const receptes = ref([
   {
     id: 4,
     titol: "Macarrons a la Boloñesa",
-    img: "https://example.com/images/macarrons_bolonesa.jpg",
+    img: "../public/images/macarrones.webp",
     ingredients: [
       "200 g de macarrons",
       "300 g de carn picada de vedella",
@@ -105,7 +105,7 @@ const receptes = ref([
   {
     id: 5,
     titol: "Gyozas de Pollastre",
-    img: "https://example.com/images/gyozas_pollastre.jpg",
+    img: "../public/images/gyoza.jpg",
     ingredients: [
       "300 g de pit de pollastre picat",
       "1 ceba tendra picada",
@@ -127,7 +127,7 @@ const receptes = ref([
   {
     id: 6,
     titol: "Mochi de Pasta de Fesols",
-    img: "https://example.com/images/mochi_fesols.jpg",
+    img: "../public/images/mochi.jpg",
     ingredients: [
       "200 g de pasta de fesols vermells (anko)",
       "200 g de farina d'arròs glutinos",
@@ -145,7 +145,7 @@ const receptes = ref([
   {
     id: 7,
     titol: "Ramen",
-    img: "https://example.com/images/ramen.jpg",
+    img: "../public/images/ramen.jpg",
     ingredients: [
       "200 g de fideus de ramen",
       "1 litre de brou de pollastre",
@@ -186,7 +186,7 @@ provide("llistaReceptes", receptes);
   </div>
 </template>
 
-<style>
+<style scoped>
 .app-container {
   max-width: 900px;
   margin: 0 auto;
