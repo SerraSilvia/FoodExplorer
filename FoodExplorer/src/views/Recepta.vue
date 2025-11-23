@@ -138,7 +138,7 @@ h1 {
 
 /* COLUMNA IZQUIERDA (Imagen + Ingredientes) */
 .left-col {
-  width: 35%; /* Ancho fijo */
+  width: 28%; /* Ancho fijo */
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -149,7 +149,7 @@ h1 {
 /* Imagen pequeña y controlada */
 .img-wrapper {
   width: 100%;
-  height: 200px; /* Altura fija pequeña */
+  height: 220px; /* Altura fija pequeña */
   border-radius: 12px;
   overflow: hidden;
   flex-shrink: 0;
@@ -158,7 +158,7 @@ h1 {
 .recipe-mini-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .ingredients-box h3 {
