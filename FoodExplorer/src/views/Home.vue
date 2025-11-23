@@ -3,13 +3,12 @@
 <template>
   <div class="home">
     <div class="container">
-      <!-- Encabezado -->
+
       <div class="text-content">
         <h1>Explora receptes <span class="highlight">delicioses</span></h1>
         <p class="subtitle">Fàcils de preparar i perfectes per al teu dia a dia.</p>
       </div>
 
-      <!-- Contenedor de imagen (Image Wrapper) -->
       <div class="image-wrapper">
         <img 
           src="/images/different_foods.jpg" 
@@ -18,7 +17,6 @@
         />
       </div>
 
-      <!-- Call to Action -->
       <div class="action-area">
         <router-link to="/receptes" class="btn-primary">
           Veure totes les receptes

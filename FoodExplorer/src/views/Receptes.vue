@@ -5,17 +5,15 @@ const receptes = inject("llistaReceptes");
 
 <template>
   <div class="llistat-container">
-    <!-- Encabezado -->
+
     <header class="section-header">
       <h1>Les nostres <span class="highlight">Receptes</span></h1>
       <p class="subtitle">Tria el teu pròxim plat preferit</p>
     </header>
 
-    <!-- Grid -->
     <div class="cards-grid">
       <div v-for="recepta in receptes" :key="recepta.id" class="recipe-card">
         
-        <!-- Imagen: Ahora el contenedor es más alto y la imagen se ve entera -->
         <div class="card-image-wrapper">
           <img :src="recepta.img" :alt="recepta.titol" class="recepta-img"/>
         </div>
