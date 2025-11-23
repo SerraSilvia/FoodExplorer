@@ -1,5 +1,5 @@
 <script setup>
-import { inject, computed } from "vue";
+import { inject, computed, watchEffect } from "vue";
 
 const props = defineProps({
   id: [Number, String]
@@ -10,6 +10,11 @@ const receptes = inject("llistaReceptes");
 const recepta = computed(() =>
   receptes.value.find(recepta => recepta.id == props.id)
 );
+
+watchEffect(() => {
+  console.log("Recepta carregada:", recepta.value);
+});
+
 </script>
 
 <template>
