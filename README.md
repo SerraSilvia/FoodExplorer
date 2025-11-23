@@ -10,18 +10,15 @@ Aquest projecte ha estat desenvolupat utilitzant l'ecosistema de **Vue 3**.
 
 ### Pàgina d'Inici (Home)
 Una benvinguda visual amb una crida a l'acció clara.
-![Pàgina d'Inici](public/images/home.jpg)
-*(Afegeix aquí la captura de la Home)*
+![Pàgina d'Inici](FoodExplorer/public/images/home.jpg)
 
 ### Llistat de Receptes
 Visualització en graella (Grid) responsiva amb targetes elegants.
-![Llistat de Receptes](public/images/receptes.jpg)
-*(Afegeix aquí la captura de /receptes)*
+![Llistat de Receptes](FoodExplorer/public/images/receptes.jpg)
 
 ### Detall de la Recepta
 Vista completa sense scroll excessiu, amb ingredients i passos ben organitzats.
-![Detall de la Recepta](public/images/recepta.jpg)
-*(Afegeix aquí la captura del detall d'una recepta)*
+![Detall de la Recepta](FoodExplorer/public/images/recepta.jpg)
 
 ---
 

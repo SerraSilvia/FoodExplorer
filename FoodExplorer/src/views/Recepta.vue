@@ -59,7 +59,6 @@ const recepta = computed(() =>
       </div>
     </div>
 
-    <!-- Estado Error -->
     <div v-else class="not-found">
       <p>Recepta no trobada</p>
       <router-link to="/receptes">Tornar</router-link>
