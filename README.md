@@ -54,15 +54,15 @@ App.vue: Component arrel. Defineix la Navbar, conté les dades de les receptes i
 
 Segueix aquests passos per executar el projecte al teu ordinador local:
 
-1. **Clonar el repositori** (si el tens a GitHub):
-   git clone https://github.com/SerraSilvia/FoodExplorer.git
-   cd FoodExplorer
-   Instal·lar dependències:
-        npm install
-   Executar el servidor de desenvolupament:
-        npm run dev
-   Obrir al navegador:
- * Ves a l'adreça que apareix a la terminal (http://localhost:5173).
+1. **Clonar el repositori** :
+  - git clone https://github.com/SerraSilvia/FoodExplorer.git
+  - cd FoodExplorer
+  * Instal·lar dependències:
+   - npm install
+  * Executar el servidor de desenvolupament:
+   - npm run dev
+   * Obrir al navegador:
+   * Ves a l'adreça que apareix a la terminal (http://localhost:5173).
 
 ## ✒️ Autora
 Creat per [SerraSilvia] com a projecte d'aprenentatge de Vue.js.

@@ -46,6 +46,7 @@ const receptes = inject("llistaReceptes");
 .section-header {
   text-align: center;
   margin-bottom: 50px;
+  display: block;
 }
 
 h1 {

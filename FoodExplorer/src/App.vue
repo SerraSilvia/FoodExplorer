@@ -20,7 +20,7 @@ const receptes = ref([
       "1 culleradeta de comí mòlt",
       "1 culleradeta de pebre vermell",
       "Sal al gust",
-      "Coriandre fresc per decorar"
+      "Coriandre fresc per decorar",
     ],
     passos: [
       "Desfés 100 g de mantega en una paella gran i sofregiu la ceba, l'all i el gingebre fins que estiguin daurats.",
@@ -28,8 +28,8 @@ const receptes = ref([
       "Afegeix les espècies (garam masala, cúrcuma, comí i pebre vermell) i cuina durant 2 minuts.",
       "Vessa els tomàquets triturats i cuina a foc lent durant 10 minuts.",
       "Afegeix la nata líquida i els 100 g restants de mantega, cuina a foc baix fins que la salsa espesseixi.",
-      "Serveix amb arròs basmati i coriandre fresc."
-    ]
+      "Serveix amb arròs basmati i coriandre fresc.",
+    ],
   },
   {
     id: 2,
@@ -46,15 +46,15 @@ const receptes = ref([
       "Sal i pebre al gust",
       "2 cullerades de salsa de tomàquet",
       "1 cullerada de mostassa",
-      "Oli per fregir"
+      "Oli per fregir",
     ],
     passos: [
       "En una paella, escalfa oli i sofregiu la ceba, l'all i la pastanaga fins que estiguin tous.",
       "En un bol gran, barreja la carn picada amb l'ou, el pa ratllat, la llet, la salsa de tomàquet, la mostassa, i els ingredients sofregits. Salpebra al gust.",
       "Forma una massa compacta i posa-la en un motlle per a forn.",
       "Cuina al forn preescalfat a 180°C durant 40-45 minuts.",
-      "Serveix calent, acompanyat de puré de patates o amanida."
-    ]
+      "Serveix calent, acompanyat de puré de patates o amanida.",
+    ],
   },
   {
     id: 3,
@@ -68,15 +68,15 @@ const receptes = ref([
       "50 g de formatge pecorino ratllat",
       "1 gra d'all",
       "Sal i pebre al gust",
-      "Oli d'oliva"
+      "Oli d'oliva",
     ],
     passos: [
       "Cuina els espaguetis en aigua amb sal segons les indicacions del paquet.",
       "Mentre es cuinen els espaguetis, fregeix la panceta en una paella amb una mica d'oli d'oliva fins que estigui cruixent.",
       "En un bol, bateix els ous i barreja'ls amb els formatges ratllats, sal i pebre.",
       "Escorre els espaguetis i, mentre estiguin calents, barreja'ls amb la panceta i la barreja d'ous.",
-      "Serveix immediatament amb més formatge per sobre."
-    ]
+      "Serveix immediatament amb més formatge per sobre.",
+    ],
   },
   {
     id: 4,
@@ -93,7 +93,7 @@ const receptes = ref([
       "Oli d'oliva",
       "Sal i pebre",
       "Fulla de llorer",
-      "Formatge parmesà ratllat"
+      "Formatge parmesà ratllat",
     ],
     passos: [
       "Cuina els macarrons en aigua amb sal segons les indicacions del paquet.",
@@ -101,8 +101,8 @@ const receptes = ref([
       "Afegeix la carn picada i cuina fins que es torni daurada.",
       "Vessa el vi negre i deixa que s'evapori l'alcohol.",
       "Afegeix els tomàquets triturats, la fulla de llorer, sal i pebre. Cuina a foc lent durant 30 minuts.",
-      "Serveix els macarrons amb la salsa boloñesa per sobre i espolvorea formatge parmesà."
-    ]
+      "Serveix els macarrons amb la salsa boloñesa per sobre i espolvorea formatge parmesà.",
+    ],
   },
   {
     id: 5,
@@ -116,15 +116,15 @@ const receptes = ref([
       "2 cullerades de salsa de soja",
       "1 cullerada d'oli de sèsam",
       "Pasta per a gyozas",
-      "Oli per fregir"
+      "Oli per fregir",
     ],
     passos: [
       "En un bol, barreja el pollastre picat amb la ceba, l'all, el gingebre, la salsa de soja i l'oli de sèsam.",
       "Col·loca una petita quantitat de la mescla al centre de cada pasta de gyoza.",
       "Humiteja els costats de la pasta amb aigua i tanca formant una mitja lluna.",
       "Escalfa oli en una paella gran i fregeix les gyozas fins que estiguin daurades per sota.",
-      "Afegeix una mica d'aigua a la paella, cobreix amb una tapa i deixa que es coguin al vapor durant 5 minuts."
-    ]
+      "Afegeix una mica d'aigua a la paella, cobreix amb una tapa i deixa que es coguin al vapor durant 5 minuts.",
+    ],
   },
   {
     id: 6,
@@ -135,14 +135,14 @@ const receptes = ref([
       "200 g de farina d'arròs glutinos",
       "100 ml d'aigua",
       "Sucre al gust",
-      "Maicena per espolvorejar"
+      "Maicena per espolvorejar",
     ],
     passos: [
       "En una paella, cuina la pasta de fesols amb una mica de sucre fins a obtenir una pasta espessa.",
       "En un recipient, barreja la farina d'arròs glutinos amb l'aigua i cuina al vapor durant 20 minuts, remenant ocasionalment.",
       "Forma petites boles amb la pasta de fesols i col·loca-les al centre de cada bola de mochi.",
-      "Tanca bé el mochi i espolvoreja amb maicena per evitar que s'enganxi."
-    ]
+      "Tanca bé el mochi i espolvoreja amb maicena per evitar que s'enganxi.",
+    ],
   },
   {
     id: 7,
@@ -157,16 +157,16 @@ const receptes = ref([
       "Cebollí picat",
       "Bok choy o espinacs",
       "Sèsam torrat",
-      "Llesques de porc rostit (opcional)"
+      "Llesques de porc rostit (opcional)",
     ],
     passos: [
       "Cuina els fideus de ramen segons les indicacions del paquet.",
       "En una cassola, escalfa el brou de pollastre i afegeix la pasta de miso i la salsa de soja.",
-       "Serveix els fideus en un bol gran i vessa el brou calent per sobre.",
+      "Serveix els fideus en un bol gran i vessa el brou calent per sobre.",
       "Afegeix els ous cuits, cebollí, bok choy i sèsam per sobre.",
-      "Si ho desitges, afegeix llesques de porc rostit per completar el plat."
-    ]
-  }
+      "Si ho desitges, afegeix llesques de porc rostit per completar el plat.",
+    ],
+  },
 ]);
 
 provide("llistaReceptes", receptes);
@@ -174,39 +174,49 @@ provide("llistaReceptes", receptes);
 
 <template>
   <div class="app-layout">
-    <!-- Barra de Navegación -->
     <nav class="navbar">
-      
-      <!-- Parte Izquierda: Logo + Texto -->
       <div class="brand">
-        <!-- Asegúrate de que esta ruta sea correcta en tu carpeta public -->
         <img src="/images/logo.png" alt="FoodExplorer Logo" class="logo" />
         <h2 class="brand-text">FoodExplorer</h2>
       </div>
 
-      <!-- Parte Derecha: Enlaces -->
       <div class="nav-links">
         <router-link to="/">Home</router-link>
         <router-link to="/receptes">Receptes</router-link>
       </div>
     </nav>
 
-    <!-- Contenido de las vistas -->
     <main class="main-content">
       <router-view />
     </main>
+    
+    <footer class="basic-footer">
+        <!-- Copyright -->
+        <div class="copyright">
+          <p>&copy; 2025 FoodExplorer. Tots els drets reservats.</p>
+        </div>
+    </footer>
   </div>
 </template>
 
-
 <style scoped>
-
 .app-layout {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-
+.copyright p {
+  margin: 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #95a5a6;
+}
+.basic-footer {
+  background-color: #2c3e50; /* Fondo oscuro elegante */
+  color: white;
+  padding: 20px 40px;
+  margin-top: auto; /* Empuja el footer al final */
+}
 /* Navbar Moderna */
 .navbar {
   display: flex; /* Flexbox es clave para alinear izq/der */
@@ -215,7 +225,7 @@ provide("llistaReceptes", receptes);
   padding: 15px 40px; /* Espaciado generoso */
   background-color: #ffffff;
   border-bottom: 1px solid #eaeaea;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.03); /* Sombra muy sutil */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03); /* Sombra muy sutil */
   position: sticky; /* Opcional: hace que el menú se quede fijo arriba */
   top: 0;
   z-index: 100;
@@ -272,7 +282,7 @@ provide("llistaReceptes", receptes);
 
 /* Línea animada debajo del link activo */
 .nav-links a::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   height: 2px;
@@ -286,5 +296,4 @@ provide("llistaReceptes", receptes);
 .nav-links a.router-link-exact-active::after {
   width: 100%;
 }
-
 </style>
