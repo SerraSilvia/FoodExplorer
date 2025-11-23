@@ -1,72 +1,142 @@
 <script setup></script>
+
 <template>
-  <div>
-    <h1>Explora receptes delicioses i fàcils de preparar</h1>
-    <img src="../../public/images/different_foods.jpg" alt="FoodExplorer Logo">
-    <router-link to="/receptes" class="btn">Veure totes les receptes</router-link>
+  <div class="home">
+    <div class="container">
+      <!-- Encabezado -->
+      <div class="text-content">
+        <h1>Explora receptes <span class="highlight">delicioses</span></h1>
+        <p class="subtitle">Fàcils de preparar i perfectes per al teu dia a dia.</p>
+      </div>
+
+      <!-- Contenedor de imagen (Image Wrapper) -->
+      <div class="image-wrapper">
+        <img 
+          src="/images/different_foods.jpg" 
+          alt="FoodExplorer Logo" 
+          class="hero-img"
+        />
+      </div>
+
+      <!-- Call to Action -->
+      <div class="action-area">
+        <router-link to="/receptes" class="btn-primary">
+          Veure totes les receptes
+        </router-link>
+      </div>
+    </div>
   </div>
 </template>
+
 <style>
+
 .home {
-  padding: 50px 20px;
-  text-align: center;
-  background: #fff3e0; /* fondo naranja muy suave */
-  min-height: 100vh;
+  background-color: #ffffff; /* Fondo blanco solicitado */
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Comic Sans MS', 'Chalkboard', cursive; /* tipografía kawaii */
+  min-height: 75vh;
+  color: #2c3e50; /* Gris oscuro profesional en lugar de negro puro */
 }
 
-/* Título */
+/* Contenedor principal que limita el ancho */
+.container {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px; /* Espacio consistente entre elementos */
+}
+.text-content{
+  padding-top: 50px;
+}
+
+/* Tipografía */
 h1 {
-  color: #e67e22; /* naranja original */
   font-size: 3rem;
-  text-shadow: 2px 2px 5px rgba(230,126,34,0.3);
-  margin-bottom: 20px;
+  font-weight: 800;
+  margin: 0 0 15px 0;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
 }
 
-/* Subtítulo */
+/* El toque naranja de la paleta original, usado como acento */
+.highlight {
+  color: #e67e22;
+  position: relative;
+  display: inline-block;
+}
+
 .subtitle {
-  color: #f39c12; /* naranja más claro */
-  font-size: 1.5rem;
-  margin-bottom: 30px;
+  font-size: 1.25rem;
+  color: #7f8c8d; /* Gris medio para subtítulos */
+  font-weight: 400;
+  margin: 0;
+  max-width: 600px;
 }
 
-/* Imagen con bordes redondeados y sombra */
-.home-img {
-  max-width: 300px;
-  border-radius: 20px;
-  box-shadow: 0 10px 20px rgba(230,126,34,0.2);
-  margin-bottom: 30px;
-  transition: transform 0.3s;
-}
-.home-img:hover {
-  transform: scale(1.05);
+/* --- CONTROL DE IMAGEN --- */
+.image-wrapper {
+  width: 100%;
+  max-width: 600px; /* Ancho máximo elegante */
+  border-radius: 24px;
+  overflow: hidden; /* CLAVE: Esto corta cualquier sobrante */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08); /* Sombra difusa y moderna */
+  border: 1px solid rgba(0,0,0,0.05);
+  line-height: 0; /* Elimina espacios fantasma debajo de la imagen */
+  padding: 20px 20px;
 }
 
-/* Botón kawaii (manteniendo colores naranjas) */
-.btn {
-  background: linear-gradient(135deg, #e67e22, #d35400);
+.hero-img {
+  width: 100%;       /* Se adapta al ancho del wrapper */
+  height: auto;      /* Mantiene proporción */
+  object-fit: cover; /* Cubre el área sin deformarse */
+  display: block;
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.image-wrapper:hover .hero-img {
+  transform: scale(1.02); /* Efecto zoom muy sutil y elegante */
+}
+
+/* --- BOTÓN PROFESIONAL --- */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e67e22; /* Naranja original */
   color: white;
-  font-weight: bold;
-  font-size: 1.2rem;
-  padding: 12px 30px;
-  border-radius: 25px;
-  box-shadow: 0 5px 15px rgba(230,126,34,0.4);
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 16px 48px;
+  border-radius: 8px; /* Bordes menos redondeados = más profesional */
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(230, 126, 34, 0.2);
 }
 
-.btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(230,126,34,0.5);
-  background: linear-gradient(135deg, #d35400, #e67e22);
+.btn-primary:hover {
+  background-color: #d35400; /* Un tono más oscuro */
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(230, 126, 34, 0.3);
 }
 
-/* Texto centrado y agradable */
-p {
-  line-height: 1.6;
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  .subtitle {
+    font-size: 1.1rem;
+  }
+  .container {
+    gap: 30px;
+  }
 }
 </style>
